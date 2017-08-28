@@ -6,8 +6,8 @@ Documentation       This is sample_2.robot
 
 *** Variable ***
 ${HOME_URL_LINK}        http://www.seleniumeasy.com/test
-${sum1}                 1
-${sum2}                 1
+${num1}                 26
+${num2}                 19
 
 *** Test Case ***
 Testcase One - input two number and add that number
@@ -37,10 +37,10 @@ Testcase Two - input two number and add that number (play with variable)
     click link              Simple Form Demo
     location should be      ${HOME_URL_LINK}/basic-first-form-demo.html
 
-    input text              id=sum1                         ${sum1}
-    input text              id=sum2                         ${sum2}
+    input text              id=sum1                         ${num1}     # look at the value in variable section
+    input text              id=sum2                         ${num2}     # look at the value in variable section
     click button            jquery=.btn-default:contains("Get Total")
-    ${total}                evaluate                        ${sum1}+${sum2}
+    ${total}                evaluate                        ${num1}+${num2}
     ${total}                Convert To String               ${total}
 
     wait until element is visible   id=displayvalue
