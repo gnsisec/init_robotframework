@@ -18,7 +18,7 @@ robot sampletest/sample_1.robot
 ```
 
 ```
-robot sampletest
+robot sampletest/
 ```
 
 ### Automation web link:
