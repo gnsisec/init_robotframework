@@ -8,15 +8,17 @@ You can find it in our [wiki](https://github.com/mattivityroom/init_robotframewo
 ### Run our sample and exercise test!
 ```
 robot path/our_test_script.robot
-```
 or
-```
 robot path/our_folder_test
 ```
 
 e.g
 ```
-robot sample/sample_1.robot
+robot sampletest/sample_1.robot
+```
+
+```
+robot sampletest
 ```
 
 ### Automation web link:
