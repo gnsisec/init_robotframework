@@ -1,6 +1,9 @@
 ### What is robotframework ?
+It's a test automation framework based on python. It's open source and type this framework is *keyword-driven testing.* What makes this framework awesome is *we can create our test case using human languange.* So, we will not just create a automation test, but in other side we *build a test documentation* and people who has not coding background can read this test.
 
 ### Why use robotframework  ?
+##### 1. Make it simply!
+![alt text](https://image.prntscr.com/image/qK5DymJWRIen8EbUOJDfwQ.png "robot")
 
 ### How to install and configure this things ?
 You can find it in our [wiki](https://github.com/mattivityroom/init_robotframework/wiki)
