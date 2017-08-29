@@ -2,7 +2,7 @@
 Library             Selenium2Library
 Suite Setup         Open Browser        ${HOME_URL_LINK}    browser=gc
 Suite Teardown      Close Browser
-Documentation       This is sample_2.robot
+Documentation       This is sample_3.robot
 
 *** Variable ***
 ${HOME_URL_LINK}        http://www.seleniumeasy.com/test
