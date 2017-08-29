@@ -12,6 +12,10 @@ It's a test automation framework based on python. It's open source and type this
 ### How to install and configure this things ?
 You can find it in our [wiki](https://github.com/mattivityroom/init_robotframework/wiki)
 
+### What library we use ? ###
+* [Standard-libraries and built-in-tools](http://robotframework.org/robotframework/)
+* [Selenium2Library](http://robotframework.org/Selenium2Library/Selenium2Library.html)
+
 ### Run our sample and exercise test!
 ```
 robot path/our_test_script.robot
@@ -27,11 +31,3 @@ robot sampletest/sample_1.robot
 ```
 robot sampletest/
 ```
-
-### Automation web link:
-There are sample site that we can use to run our sample test and build our automation web(end to end) exercise. Add more if you know other site that we can use.
-* http://automationpractice.com/index.php
-* http://phptravels.com/demo/
-* http://demoqa.com/
-* http://www.practiceselenium.com/
-* http://www.seleniumeasy.com/
